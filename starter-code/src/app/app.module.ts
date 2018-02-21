@@ -13,7 +13,7 @@ import { MovieServiceService } from 'app/services/movie-service.service';
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home',  component: MyHomeComponentComponent },
-  { path: 'movie', component: MyMovieComponentComponent }
+  { path: 'movie/:id', component: MyMovieComponentComponent }
 ];
 
 @NgModule({
