@@ -8,6 +8,7 @@
       <h3>ROOM {{ movie.room }}</h3>
       <img src="{{movie.poster}}">
       <p>{{ movie.title }}</p>
+      <a [routerLink]="['/movie', movie]">Details</a>
     </li>
   </ul>
 </div>
