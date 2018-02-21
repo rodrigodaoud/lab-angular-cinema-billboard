@@ -1,0 +1,20 @@
+
+.list-movies ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+}
+
+.list-movies p{
+    font-size: 10px;
+}
+.list-movies h3{
+    font-size: 14px;
+    color: blue;
+}
+.list-movies img{
+    width: 150px;
+    height: 250px;
+}
