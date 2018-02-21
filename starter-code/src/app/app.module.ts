@@ -5,6 +5,8 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { MovieServiceService } from 'app/services/movie-service.service';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -14,7 +16,7 @@ import { AppComponent } from './app.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [MovieServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
